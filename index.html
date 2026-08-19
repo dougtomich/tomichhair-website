@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tomich Hair is a Houston family's curl care brand with Brazilian roots. Tomich Definition and Tomich Crown — curl-defining creams coming soon. Join the list." />
+  <meta name="description" content="Tomich Hair has launched — a Houston family's curl care brand with Brazilian roots. Tomich Definition and Tomich Crown curl-defining creams. Follow @tomichhair." />
   <title>Tomich Hair — Define Every Curl. Crown Every Curl.</title>
   <link rel="canonical" href="https://tomichhair.com/" />
   <meta name="theme-color" content="#2C1810" />
@@ -13,7 +13,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Tomich Hair" />
   <meta property="og:title" content="Tomich Hair — Define Every Curl. Crown Every Curl." />
-  <meta property="og:description" content="Curl care born in Houston, rooted in Brazil. A family-made line of curl-defining creams. Coming soon — be the first to know." />
+  <meta property="og:description" content="We've launched! Curl care born in Houston, rooted in Brazil. A family-made line of curl-defining creams. Follow @tomichhair on TikTok." />
   <meta property="og:url" content="https://tomichhair.com/" />
   <meta property="og:image" content="https://tomichhair.com/og.png" />
   <meta property="og:image:width" content="1200" />
@@ -22,7 +22,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Tomich Hair — Define Every Curl. Crown Every Curl." />
-  <meta name="twitter:description" content="Curl care born in Houston, rooted in Brazil. A family-made line of curl-defining creams. Coming soon." />
+  <meta name="twitter:description" content="We've launched! Curl care born in Houston, rooted in Brazil. A family-made line of curl-defining creams." />
   <meta name="twitter:image" content="https://tomichhair.com/og.png" />
 
   <!-- Structured data -->
@@ -170,7 +170,39 @@
       max-width: 520px;
       font-size: 0.95rem;
       color: rgba(245, 236, 215, 0.6);
+      margin-bottom: 1.6rem;
+    }
+
+    .launch-note {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.3rem, 2.8vw, 1.7rem);
+      font-style: italic;
+      color: var(--gold-light);
+      margin-bottom: 1.1rem;
+    }
+
+    .launch-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.85rem 1.8rem;
       margin-bottom: 3rem;
+      border: 1px solid var(--gold);
+      border-radius: 999px;
+      background: rgba(201, 168, 76, 0.1);
+      color: var(--cream);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s, transform 0.2s;
+    }
+    .launch-cta svg { width: 16px; height: 16px; }
+    .launch-cta:hover {
+      background: var(--gold);
+      color: var(--mahogany);
+      transform: translateY(-2px);
     }
 
     /* Products */
@@ -380,7 +412,7 @@
 
   <main class="page">
 
-    <p class="eyebrow fade">Houston, TX &nbsp;·&nbsp; Family-Made &nbsp;·&nbsp; Coming Soon</p>
+    <p class="eyebrow fade">Houston, TX &nbsp;·&nbsp; Family-Made &nbsp;·&nbsp; Now Launched</p>
 
     <h1 class="fade d1">Tomich <em>Hair</em></h1>
 
@@ -389,6 +421,13 @@
     <p class="story-line fade d2">
       A Houston family business with Brazilian roots — a husband, a wife, and their son, with their name on every product.
     </p>
+
+    <p class="launch-note fade d2">Tomich Hair has launched.</p>
+
+    <a class="launch-cta fade d2" href="https://www.tiktok.com/@tomichhair" target="_blank" rel="noopener" aria-label="Follow Tomich Hair on TikTok">
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M19.6 7.3a5.6 5.6 0 0 1-3.4-1.1 5.6 5.6 0 0 1-2.1-3.2h-3v12.6a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.9a6.4 6.4 0 0 0-.8-.1 5.8 5.8 0 1 0 5.8 5.8V9.5a8.6 8.6 0 0 0 5.3 1.8V8.2c0-.3 0-.6 0-.9z"/></svg>
+      Follow us on TikTok
+    </a>
 
     <div class="products">
 
@@ -399,7 +438,7 @@
             <circle cx="27.5" cy="29" r="2.4" fill="#C9A84C"/>
           </svg>
         </div>
-        <span class="card-soon">Coming Soon</span>
+        <span class="card-soon">Just Launched</span>
         <h2>Tomich Definition</h2>
         <p class="card-tag">Define every curl.</p>
         <p>A curl-defining cream that locks in shape, tames frizz, and delivers definition that lasts all day.</p>
@@ -415,7 +454,7 @@
             <path d="M14 44 L46 44" stroke="#C9A84C" stroke-width="2.2" stroke-linecap="round"/>
           </svg>
         </div>
-        <span class="card-soon">Coming Soon</span>
+        <span class="card-soon">Just Launched</span>
         <h2>Tomich Crown</h2>
         <p class="card-tag">Crown every curl.</p>
         <p>A rich, weightful curl cream that holds through humidity and brings out your natural shine.</p>
@@ -424,7 +463,7 @@
     </div>
 
     <div class="capture fade d5">
-      <p class="capture-title">Be the first to know when we launch.</p>
+      <p class="capture-title">Join the list for news, tips, and what's next.</p>
 
       <form class="notify-form" id="notifyForm" novalidate>
         <input
@@ -448,7 +487,7 @@
           <path d="M11 18.5 L16 23.5 L25 13" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         You're on the list. We'll be in touch soon.
-        <span class="notify-success-follow">While you wait — we're @tomichhair everywhere:</span>
+        <span class="notify-success-follow">Follow along — we're @tomichhair everywhere:</span>
         <div class="social-row" style="margin-top:0;">
           <a class="social-link" href="https://www.tiktok.com/@tomichhair" target="_blank" rel="noopener" aria-label="Tomich Hair on TikTok">
             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19.6 7.3a5.6 5.6 0 0 1-3.4-1.1 5.6 5.6 0 0 1-2.1-3.2h-3v12.6a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.9a6.4 6.4 0 0 0-.8-.1 5.8 5.8 0 1 0 5.8 5.8V9.5a8.6 8.6 0 0 0 5.3 1.8V8.2c0-.3 0-.6 0-.9z"/></svg>
